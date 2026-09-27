@@ -5,7 +5,7 @@ from tokenizers import Tokenizer
 
 
 TOKENIZER_PATH = Path("data/tokenizer.json")
-SHARD_PATH = Path("data/wiki_tokens/train_00007.bin")
+SHARD_PATH = Path("data/wiki_tokens/train_00049.bin")
 
 
 tokenizer = Tokenizer.from_file(str(TOKENIZER_PATH))

@@ -18,3 +18,7 @@ logits, loss = model(x, y)
 print("x:", x.shape)
 print("logits:", logits.shape)
 print("loss:", loss.item())
+
+n_params = sum(p.numel() for p in model.parameters())
+print(f"parameters: {n_params:,}")
+print(config)

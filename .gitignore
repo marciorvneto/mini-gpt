@@ -1,15 +1,17 @@
-# Python-generated files
+.venv/
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
 
-# Virtual environments
-.venv
+# Generated corpora
+data/*
+!data/tokenizer.json
 
+# Training artifacts
 checkpoints/
+checkpoints_v2/
 checkpoints_sft/
 checkpoints_sft_v2/
-data/
+runs/
+
+# Misc
+*.pt

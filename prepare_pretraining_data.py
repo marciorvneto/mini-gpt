@@ -9,10 +9,10 @@ from tqdm import tqdm
 TOKENIZER_PATH      = Path("data/tokenizer.json")
 OUTPUT_DIR          = Path("data/wiki_tokens")
 
-TRAIN_TARGET_TOKENS = 100_000_000
-VAL_TARGET_TOKENS   = 2_000_000
+TRAIN_TARGET_TOKENS = 500_000_000
+VAL_TARGET_TOKENS   = 10_000_000
 
-SHARD_TOKENS        = 5_000_000
+SHARD_TOKENS        = 10_000_000
 
 SHUFFLE_BUFFER      = 10_000
 SEED                = 42

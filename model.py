@@ -10,10 +10,10 @@ class GPTConfig:
     vocab_size: int     = 16_384
     context_length: int = 512
 
-    n_layers: int       = 6
-    n_heads: int        = 6
-    d_model: int        = 384
-    d_ff: int           = 1536
+    n_layers: int       = 12
+    n_heads: int        = 8
+    d_model: int        = 512
+    d_ff: int           = 2048
 
 
 class CausalSelfAttention(nn.Module):
