@@ -392,7 +392,7 @@ def estimate_loss():
 # ---------------------------------------------------------------------
 
 tokenizer = Tokenizer.from_file(
-    TOKENIZER_PATH
+    str(TOKENIZER_PATH)
 )
 
 eot_id = tokenizer.token_to_id(
